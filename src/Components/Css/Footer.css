@@ -1,0 +1,17 @@
+#footer{
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+#footer .icongroup img{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0px 5px;
+}

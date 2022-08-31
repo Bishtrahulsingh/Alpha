@@ -1,0 +1,34 @@
+.heroelement{
+    height:calc(100vh - 80px );
+}
+.banner{
+    margin-top: 30px;
+    height: 40vh;
+    overflow: hidden;
+}
+.video{
+    width: 100vw;
+}
+.bannertext{
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+}
+.bannertext::after{
+    content: "Exercise";
+    position: absolute;
+    top: 35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 20vw;
+    color: red;
+    opacity: 0.2;
+}
+
+/* --media-- */
+
+@media (min-height:700px) {
+    .bannertext{
+        font-size: 23px;
+    }
+}

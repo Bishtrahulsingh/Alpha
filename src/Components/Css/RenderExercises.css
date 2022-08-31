@@ -1,0 +1,27 @@
+.RenderExercises{
+    width: fit-content;
+    height: fit-content;
+    margin:10px;
+    width: 20vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vmax;
+    box-shadow: 0 0 5px rgb(139, 139, 139);
+}
+p{
+    padding: 0%;
+    margin: 0%;
+}
+
+.RenderExercises img{
+    width: 10vw;
+}
+
+@media(max-width:700px){
+    .RenderExercises img{
+        width: 20vw;
+    }
+}

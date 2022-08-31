@@ -1,0 +1,40 @@
+.ExerciseDetail{
+    text-align: center;
+    width: 80vw;
+    min-height: 80vh;
+    box-shadow: 0 0 5px black;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+.ExerciseDetail .details{
+    display: flex;
+    flex-direction: column;
+    width: 78vw;
+    justify-content: center;
+    text-align: start;
+    font-size: 20px;
+    overflow-x: scroll;
+}
+.ExerciseDetail .details::-webkit-scrollbar{
+    display: none;
+} 
+.ExerciseDetail img{
+    width: 30vw;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width:1000px) {
+    .ExerciseDetail img{
+        width: 60vw;
+    }
+    .ExerciseDetail .details{
+        font-size: 15px;
+    }
+}
