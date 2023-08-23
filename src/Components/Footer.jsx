@@ -7,10 +7,10 @@ const Footer = () => {
         <div id="footer">
             <div className="icongroup">
 
-                <a href="https://github.com/Bishtrahulsingh">
+                <a href="#">
                     <img src="/github-brands.svg" alt="" />
                 </a>
-                <a href="https://www.linkedin.com/in/bishtrahulsingh/">
+                <a href="#">
                     <img src="/linkedin-in-brands.svg" alt="" />
                 </a>
                 <a href=" " >
