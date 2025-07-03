@@ -8,7 +8,7 @@ export const exerciseOptions = {
 
 
 const fetchdata = async (url, options) => {
-  const response = await fetch(url, options);
+  const response = await fetch(url, exerciseOptions);
   const data = await response.json();
   return data;
 };
